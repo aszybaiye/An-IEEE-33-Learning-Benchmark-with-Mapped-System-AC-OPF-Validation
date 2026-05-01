@@ -1,0 +1,2 @@
+update_trigger,update_frequency,replay_size,batch_size,replay_selection,forgetting_control
+weekly_batch_arrival,one round per sampled weekly batch,24,6,top risk_score samples,high-risk replay retention

@@ -1,0 +1,27 @@
+start
+scenarios:18
+run_case:case30
+case_done:case30:18
+run_case:case118
+case_done:case118:18
+detail_written
+summary_written
+reduce_case:case30:18
+reduce_case:case118:18
+reduction_written:24
+Traceback (most recent call last):
+  File "D:\open2paper\scripts\08_run_opf_benchmark.py", line 107, in main
+    repeated_case_df = pd.DataFrame(repeated_case_frames)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda3\Lib\site-packages\pandas\core\frame.py", line 867, in __init__
+    mgr = ndarray_to_mgr(
+          ^^^^^^^^^^^^^^^
+  File "D:\Anaconda3\Lib\site-packages\pandas\core\internals\construction.py", line 319, in ndarray_to_mgr
+    values = _prep_ndarraylike(values, copy=copy_on_sanitize)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda3\Lib\site-packages\pandas\core\internals\construction.py", line 582, in _prep_ndarraylike
+    return _ensure_2d(values)
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Anaconda3\Lib\site-packages\pandas\core\internals\construction.py", line 592, in _ensure_2d
+    raise ValueError(f"Must pass 2-d input. shape={values.shape}")
+ValueError: Must pass 2-d input. shape=(40, 18, 25)

@@ -1,0 +1,63 @@
+seed: 2026
+split:
+  train: 0.7
+  val: 0.15
+  test: 0.15
+  stratify_cols:
+    - wind_label
+    - pv_label
+model:
+  n_clusters: 6
+  embedding_dim: 4
+  risk_alpha: 2.0
+  risk_quantile: 0.8
+  ood_quantile: 0.98
+  ood_min_count: 2
+analysis:
+  multi_seeds:
+    - 2026
+    - 2027
+    - 2028
+    - 2029
+    - 2030
+  k_values:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+  alpha_values:
+    - 0.0
+    - 0.5
+    - 1.0
+    - 2.0
+    - 3.0
+  penetration_levels:
+    - 0.3
+    - 0.5
+    - 0.7
+continual:
+  replay_size: 24
+  update_rounds: 5
+opf:
+  seed: 2026
+  case_names:
+    - case30
+    - case118
+  distribution_case_names:
+    - case33bw
+    - case69
+  scenario_sample_size: 18
+  reduction_sizes:
+    - 4
+    - 8
+    - 12
+  repeated_sampling_count: 20
+paths:
+  outputs: Outputs
+  interim: Outputs/interim
+  models: Outputs/models
+  tables: Outputs/tables
+  figures: Outputs/figures
+  photos: Outputs/photos
+  pdf: Outputs/pdf

@@ -1,9 +1,0 @@
-parameter,default_value,role,where_used
-K,6,total representative-library size in the main DDRE benchmark,PAPER_EN.md Section 7.1 and Section 8.2
-alpha,2.0,risk-weight coefficient in weighted embedding,PAPER_EN.md Section 5.1 and Section 8.2
-gamma,1.0,drift-correction factor in the risk model,PAPER_EN.md Section 5.1 and Section 8.2
-tau,0.8,high-risk quantile threshold for defining the dual-layer tail set,PAPER_EN.md Section 6.1 and Section 8.2
-seeds,2026|2027|2028|2029|2030,repeated runs for the main DDRE comparison,PAPER_EN.md Section 7.1
-opf_scenario_count,18,stratified scenario count per mapped-system AC-OPF benchmark draw,PAPER_EN.md Section 7.2
-opf_repeated_draws,4,repeated stratified benchmark draws used for OPF-reduction robustness summary,PAPER_EN.md Section 7.2 and Section 7.4
-opf_reduced_sizes,4|8|12,retained scenario counts in the OPF reduction benchmark,PAPER_EN.md Section 7.2 and Section 8.5

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "An IEEE-33 Learning Benchmark with Mapped-System AC-OPF Validation"
+type: software
+authors:
+  - family-names: "Sun"
+    given-names: "Zhaoyi"
+  - family-names: "Liu"
+    given-names: "Ping"
+  - family-names: "Meng"
+    given-names: "Peipei"
+    email: "cathleen@whut.edu.cn"
+repository-code: "https://github.com/aszybaiye/An-IEEE-33-Learning-Benchmark-with-Mapped-System-AC-OPF-Validation"
+url: "https://github.com/aszybaiye/An-IEEE-33-Learning-Benchmark-with-Mapped-System-AC-OPF-Validation"
+license: "MIT"
+keywords:
+  - "representative-day learning"
+  - "scenario reduction"
+  - "renewable dispatch"
+  - "AC optimal power flow"
+  - "explainable learning"
+abstract: "Code, configuration, and reproducibility artifacts for adaptive risk-aware representative-day learning on DDRE-33 with direct feeder screening, native-feeder snapshot AC-OPF, and mapped-system AC-OPF validation."

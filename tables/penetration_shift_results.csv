@@ -1,0 +1,4 @@
+penetration_level,ramp_max_mean,low_output_rate_mean,power_deficit_mean
+0.3,0.81,0.29,0.41
+0.5,0.74,0.22,0.34
+0.7,0.93,0.31,0.43

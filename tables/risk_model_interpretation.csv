@@ -1,0 +1,6 @@
+feature,learned_weight,corr_with_dispatch_cost,physical_interpretation
+ramp_max,0.7072497888210683,0.4342824627007164,higher reserve requirement under abrupt renewable ramps
+smoothness,0.0865058756846668,0.22104895885267403,lower temporal smoothness indicates reduced dispatch stability
+low_output_rate,0.0,0.5821365439828805,persistent renewable scarcity raises balancing demand
+power_deficit,0.20624433549426488,0.5661229210401495,mean output shortfall implies stronger compensation need
+complementarity,,-0.03298910491224214,wind-PV complementarity mitigates simultaneous deficits

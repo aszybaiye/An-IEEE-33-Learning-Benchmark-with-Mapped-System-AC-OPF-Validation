@@ -1,0 +1,6 @@
+component,scope_in_this_paper,evidence_boundary,manuscript_anchor
+title_and_core_learning_task,DDRE-33 representative-day learning benchmark,title names the learning benchmark and remains narrower than the full physical-validation package,PAPER_EN.md Section 3 and Appendix B
+feeder_aware_operational_layer,IEEE-33 and IEEE-69-like surrogate dispatch checks,stronger than transfer proxy but weaker than direct branch-flow screening,PAPER_EN.md Section 8.3
+direct_ddre33_physical_layer,radial branch-flow screening plus native snapshot AC-OPF on the 33-bus feeder,direct network-object stress check plus executable native-feeder snapshot optimization but not multiperiod device-rich control-aware OPF,PAPER_EN.md Section 5.2 and Section 8.3
+physical_validation_layer,mapped IEEE-30 and IEEE-118 AC-OPF with DDRE-derived injections,explicit optimization-constraint validation on benchmark systems that complements rather than replaces native DDRE-33 validation,PAPER_EN.md Section 7.2 and Section 8.4
+paper_level_claim,dispatch-facing scenario-management front end,not a universal solver replacement,PAPER_EN.md Section 8.6 and Section 9

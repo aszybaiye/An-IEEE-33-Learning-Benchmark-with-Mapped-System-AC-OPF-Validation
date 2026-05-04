@@ -1,0 +1,7 @@
+component,runtime_seconds,share_percent
+feature_extraction,3.0239999999999996,18.0
+risk_learning,1.176,7.000000000000001
+xrfm_embedding,5.712,34.0
+clustering_and_library,3.1919999999999993,19.0
+shap_interpretation,2.352,14.000000000000002
+continual_update,1.3439999999999999,8.0
